@@ -1,5 +1,6 @@
 package org.sirenia.ark.run;
 
+import com.alipay.sofa.ark.support.startup.SofaArkBootstrap;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ArkApp {
 
     public static void main(String[] args) {
-        //SofaArkBootstrap.launch(args);
+        SofaArkBootstrap.launch(args);
         SpringApplication.run(ArkApp.class, args);
     }
 }
