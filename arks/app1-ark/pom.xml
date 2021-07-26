@@ -17,14 +17,17 @@
     </properties>
 
     <dependencies>
+        <!-- 包装springboot项目的时候需要添加该依赖 -->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>sofa-ark-springboot-starter</artifactId>
         </dependency>
+        <!-- 包装springboot webmvc项目的时候需要添加该依赖 -->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>web-ark-plugin</artifactId>
         </dependency>
+        <!-- 待包装的springboot项目 -->
         <dependency>
             <groupId>org.sirenia</groupId>
             <artifactId>springboot-app1</artifactId>

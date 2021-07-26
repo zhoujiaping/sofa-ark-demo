@@ -6,7 +6,9 @@ import org.springframework.context.annotation.ImportResource;
 
 import javax.annotation.PostConstruct;
 
-@ImportResource({ "classpath*:META-INF/spring/service.xml" })
+/**
+ * 普通的springboot webmvc应用
+ * */
 @SpringBootApplication
 public class App {
 

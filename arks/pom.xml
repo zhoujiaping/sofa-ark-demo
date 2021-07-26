@@ -23,7 +23,6 @@
     </modules>
     <dependencyManagement>
         <dependencies>
-
             <!--SOFAArk modules-->
             <dependency>
                 <groupId>com.alipay.sofa</groupId>
@@ -41,19 +40,6 @@
                 <groupId>com.alipay.sofa</groupId>
                 <artifactId>web-ark-plugin</artifactId>
                 <version>${ark.version}</version>
-            </dependency>
-
-            <!--sample projects-->
-            <dependency>
-                <groupId>com.alipay.sofa</groupId>
-                <artifactId>sample-ark-plugin</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.alipay.sofa</groupId>
-                <artifactId>sample-ark-plugin-common</artifactId>
-                <version>${project.version}</version>
             </dependency>
 
         </dependencies>
@@ -85,53 +71,4 @@
             </pluginRepositories>
         </profile>
     </profiles>
-
-    <build>
-        <plugins>
-            <!--            <plugin>-->
-            <!--                <groupId>com.mycila</groupId>-->
-            <!--                <artifactId>license-maven-plugin</artifactId>-->
-            <!--                <version>4.0</version>-->
-            <!--                <executions>-->
-            <!--                    <execution>-->
-            <!--                        <phase>generate-sources</phase>-->
-            <!--                        <goals>-->
-            <!--                            <goal>remove</goal>-->
-            <!--                            <goal>format</goal>-->
-            <!--                        </goals>-->
-            <!--                    </execution>-->
-            <!--                </executions>-->
-            <!--                <configuration>-->
-            <!--                    <quiet>true</quiet>-->
-            <!--                    <header>${user.dir}/HEADER</header>-->
-            <!--                    <includes>-->
-            <!--                        <include>**/src/main/java/**</include>-->
-            <!--                        <include>**/src/test/java/**</include>-->
-            <!--                    </includes>-->
-            <!--                    <strictCheck>true</strictCheck>-->
-            <!--                    <mapping>-->
-            <!--                        <java>SLASHSTAR_STYLE</java>-->
-            <!--                    </mapping>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
-
-            <!--            <plugin>-->
-            <!--                <groupId>com.googlecode.maven-java-formatter-plugin</groupId>-->
-            <!--                <artifactId>maven-java-formatter-plugin</artifactId>-->
-            <!--                <version>0.4</version>-->
-            <!--                <executions>-->
-            <!--                    <execution>-->
-            <!--                        <goals>-->
-            <!--                            <goal>format</goal>-->
-            <!--                        </goals>-->
-            <!--                    </execution>-->
-            <!--                </executions>-->
-            <!--                <configuration>-->
-            <!--                    <configFile>${user.dir}/Formatter.xml</configFile>-->
-            <!--                    <encoding>${project.encoding}</encoding>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
-        </plugins>
-    </build>
-
 </project>

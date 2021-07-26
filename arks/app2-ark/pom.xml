@@ -17,14 +17,17 @@
     </properties>
 
     <dependencies>
+        <!-- 包装springboot webmvc项目的时候需要添加该依赖 -->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>web-ark-plugin</artifactId>
         </dependency>
+        <!-- 包装springboot项目的时候需要添加该依赖 -->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>sofa-ark-springboot-starter</artifactId>
         </dependency>
+        <!-- 待包装的springboot项目 -->
         <dependency>
             <groupId>org.sirenia</groupId>
             <artifactId>springboot-app2</artifactId>
@@ -48,6 +51,7 @@
                         <configuration>
                             <!--specify destination where executable-ark-jar will be saved, default saved to ${project.build.directory}-->
                             <outputDirectory>target</outputDirectory>
+                            <!-- 如果app2没有提供springboot启动类，可以在当前module里面建一个 -->
                             <mainClass>org.sirenia.app2.App</mainClass>
                             <!--default none-->
                             <arkClassifier>executable-ark</arkClassifier>
