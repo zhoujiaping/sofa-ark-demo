@@ -1,6 +1,6 @@
 package org.sirenia.app2.controller;
 
-import org.sirenia.HiUtil;
+import org.sirenia.util.HiUtil;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
