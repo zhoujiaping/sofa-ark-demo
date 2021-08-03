@@ -52,7 +52,7 @@
                             <!--specify destination where executable-ark-jar will be saved, default saved to ${project.build.directory}-->
                             <outputDirectory>target</outputDirectory>
                             <!-- 如果app2没有提供springboot启动类，可以在当前module里面建一个 -->
-                            <mainClass>org.sirenia.app2.App</mainClass>
+                            <mainClass>org.sirenia.app2.WarApp</mainClass>
                             <!--default none-->
                             <arkClassifier>executable-ark</arkClassifier>
                             <attach>true</attach>
