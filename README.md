@@ -2,6 +2,8 @@
 
 本项目作为一个sofa在多web模块的场景的一个demo。（这简介够简的）
 
+(sofa-ark不支持java9+，如需跑sofa-ark的demo，请先将jdk版本号改为1.8)
+
 # 项目结构
 ```
 -sofa-ark-demo
