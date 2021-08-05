@@ -10,9 +10,9 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <ark.version>0.6.0</ark.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <ark.version>1.1.7-SNAPSHOT</ark.version>
         <project.encoding>UTF-8</project.encoding>
     </properties>
 
