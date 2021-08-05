@@ -54,10 +54,6 @@ public class App {
                 return super.getTomcatWebServer(tomcat);
             };
         };
-        var base = new File("./");
-        System.out.println("base=>"+base);
-        new File(base,"/webapps/app1").mkdirs();
-        new File(base,"/webapps/app2").mkdirs();
         return fac;
     }
 }
